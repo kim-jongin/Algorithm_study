@@ -38,3 +38,6 @@ function solution(numbers) {
 //Lv0_나머지 구하기
 const solution = (num1, num2) => num1%num2
 
+//Lv0_중앙값 구하기
+const solution = array => array.sort((a,b) => a-b)[array.length/2 <<0]
+

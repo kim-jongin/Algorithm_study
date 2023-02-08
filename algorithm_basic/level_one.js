@@ -26,3 +26,23 @@ function solution(n)
     }
     return answer;
 }
+
+//Lv1_자연수 뒤집어 배열로 만들기
+function solution(n) {
+    let result = [];
+    let arr = String(n).split("").reverse().map((data) => Number(data))
+    for(let i = 0; i < arr.length; i++) {
+        result[i] = Number(arr[i])
+    }
+    return arr;
+}
+
+//Lv1_문자열 내 p와 y의 개수
+function solution(s){
+    let change = s.toLowerCase();
+//    console.log(change);
+    let check_p = change.split("p").length;
+    let check_y = change.split("y").length;
+    
+    return check_p == check_y ? true : false;
+}

@@ -46,3 +46,9 @@ function solution(s){
     
     return check_p == check_y ? true : false;
 }
+
+//Lv1_정수 제곱근
+function solution(n) {
+    // 삼항 연산자를 이용한 풀이
+    return Math.sqrt(n) % 1 == 0 ? Math.pow(Math.sqrt(n)+1,2) : -1
+}

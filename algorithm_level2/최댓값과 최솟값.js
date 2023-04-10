@@ -9,3 +9,8 @@ function solution(s) {
 
   return `${Math.min(...numberArr)} ${Math.max}(...numberArr)`;
 }
+
+// 문제 풀이 순서
+// - split -> 문자열 s의 각 문자들을 분리한다.
+// - map -> 각 문자들을 돌면서 숫자로 치환한다.
+// - Math.min , Math.max -> 최솟값과 최댓값을 구한다.
